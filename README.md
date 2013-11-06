@@ -5,6 +5,8 @@ This project aims to give participants to local Global Day of Code Retreat sessi
 
 To achieve this, there are many stub of several languages in order to get up and running for Test-Driven development
 
+Head into the directory of your language of choice and there will be more help when you get there to get you started.
+
 Contribute a language/framework
 -------------------------------
 
