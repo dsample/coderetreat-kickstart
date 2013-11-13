@@ -4,7 +4,7 @@ describe("Game Of Life", function() {
 
 	describe("Go", function(){
 		it("should return true", function() {
-			var result = gameoflife.doit();
+			var result = gameoflife.go();
 			expect(result).toBeTruthy();
 		});
 	});

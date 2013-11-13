@@ -1,7 +1,7 @@
 GameOfLife = function() {
 	var self = this;
 
-	self.doit = function(){
+	self.go = function(){
 		return true;
 	}
 }
