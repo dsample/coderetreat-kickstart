@@ -1,4 +1,5 @@
-# Created by https://www.gitignore.io/api/sublimetext,notepadpp,vim,emacs,windows,linux,osx
+
+# Created by https://www.gitignore.io/api/sublimetext,notepadpp,vim,emacs,windows,linux,osx,textmate,visualstudiocode
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -43,9 +44,28 @@ flycheck_*.el
 
 # projectiles files
 .projectile
+projectile-bookmarks.eld
 
 # directory configuration
 .dir-locals.el
+
+# saveplace
+places
+
+# url cache
+url/cache/
+
+# cedet
+ede-projects.el
+
+# smex
+smex-items
+
+# company-statistics
+company-statistics-cache.el
+
+# anaconda-mode
+anaconda-mode/
 
 ### Linux ###
 
@@ -124,6 +144,11 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### TextMate ###
+*.tmproj
+*.tmproject
+tmtags
+
 ### Vim ###
 # swap
 [._]*.s[a-v][a-z]
@@ -136,6 +161,14 @@ Session.vim
 .netrwhist
 # auto-generated tag files
 tags
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -158,4 +191,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/sublimetext,notepadpp,vim,emacs,windows,linux,osx
+# End of https://www.gitignore.io/api/sublimetext,notepadpp,vim,emacs,windows,linux,osx,textmate,visualstudiocode
