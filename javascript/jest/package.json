@@ -1,0 +1,16 @@
+{
+  "name": "javascript-jest",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
